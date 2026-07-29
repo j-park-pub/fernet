@@ -1,0 +1,22 @@
+Package: fernet
+Title: Fernet Symmetric Encryption for R
+Version: 0.1.0
+Authors@R: 
+    person("Jared", "Park", , "PJared722@gmail.ca", role = c("aut", "cre"))
+Description: Implements the Fernet symmetric encryption scheme, providing
+    functions to generate keys, and to encrypt and decrypt messages using
+    AES-CBC with HMAC-SHA256 authentication, encoded as URL-safe base64
+    tokens.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    digest,
+    lubridate,
+    openssl
+Config/roxygen2/version: 8.0.0
+Depends:
+    R (>= 4.6.0)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
