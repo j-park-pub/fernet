@@ -15,7 +15,7 @@ transmit.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("<your-username>/fernet")
+remotes::install_github("j-park-pub/fernet")
 ```
 
 ## Usage
